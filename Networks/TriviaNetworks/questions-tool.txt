@@ -1,0 +1,15 @@
+::No Code -03. The flag (G) in a ro...::The flag (G) in a rounting table entry means\: {
+~The entry is up
+~The destination IP address is a host
+=It is necesary to go through a router to reach the destination
+~None of the above
+}
+
+::No Code -04. The reassembly of fr...::The reassembly of fragmented IP datagrams happens\: {
+~In each router they pass through
+=When they reach the final destination
+~When an error ocurred in the transmission
+~An IP datagram cannot be fragmented
+}
+
+

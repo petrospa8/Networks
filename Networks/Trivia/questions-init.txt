@@ -1,0 +1,29 @@
+TCP communications are...
+Oriented to large data segments.
+Unidirectional and simultaneous.
+*Bidirectional and simultaneous.
+Not connection oriented.
+
+The ISN (Initial Sequence Number) is generated randomly because:
+*It avoids having conflicts with segments of older connections having the same ISN (reincarnation).
+The system avoids taking into account all ISN that were generated.
+It results in a safer encoding.
+If the segment is lost it is easier for the sender host to generate a new random number instead of looking for the ISN of the lost segment (reincarnation).
+
+If in Selective Repeat ARQ protocol several ACK's arrive out of order the sender will...
+Detect the error and relabel the segments to fit the current sequence.
+*Store the segments which ACK arrived before time in the buffer until the missing acknowledgments arrive, it will resend the packet after a timeout.
+Send immediately the data segments that correspond to the conflicting ACK's again.
+Reestablish the conection with the receiver.
+
+Which number can we use to know the maximum segment size that will be able to be sent in a TCP connection? 
+The MTU.
+The MSS.
+*The minimum between MTU and MSS.
+None of above.
+
+When we are downloading something from the internet and the connection is interrupted and resumed again, why don't we keep the same download speed that we previously had?
+Because our computer is checking that the data that it had already downloaded was not corrupted in the process.
+Because of the Nagle Algotithm, that restarts the connection in an increasing speed in order to avoid a sudden occupation of the bandwidth of the connection.
+Because the network cards that computers use nowadays aren't still able to rapidly reach high data-transfer speeds.
+*Because of the Slow Start Algorithm, the speed at which packets are sent is the one at which ACK's are receive, which results in an exponential speed.

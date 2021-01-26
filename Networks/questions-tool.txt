@@ -1,0 +1,35 @@
+::No Code -01. In IP fragmentation\...::In IP fragmentation\: Several fragments of the same packet\: {
+~Have different ID numbers.
+=Have the same ID numbers.
+~Only the first fragment provides an ID number.
+~The ID number is just for us to understund what is happening, it's never used by any computer.
+}
+
+::No Code -02. The main objective o...::The main objective o a ping message (ICMP) is to\: {
+=Check whether a network is reachable.
+~Check he speed of a network connection.
+~Check he bandwidth of a network connection.
+~Establish a connection with another system.
+}
+
+::No Code -03. The trace route is\:...::The trace route is\: {
+~A table that shows the router which is the path to a certain network.
+~A list of the recent events that happened in a router.
+=A diagnostic tool to display the route of packets across an IP network.
+~A tool to track a packet in order to know its origin.
+}
+
+::No Code -04. Static routing is\:...::Static routing is\: {
+=A manually configured routing entry instead of a dynamic generated one.
+~The old version of dynamic routing. Static routing is now deprecated.
+~A backup mechanism for the router to recover lost routing tables.
+~The name given to a wired connection between routers.
+}
+
+::No Code -05. What is supernetting...::What is supernetting? {
+~The way subnetting is called in IPv6.
+~A common issue that occurs when subnetting is not properly done.
+~Subnetting with a big nomber of host IDs per subnet.
+=Combining several contiguous address spaces to simulate a bigger network using masks.
+}
+
